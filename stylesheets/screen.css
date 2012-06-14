@@ -354,7 +354,7 @@ ul.posts li a span.date {
 #landing #posts .clear {
   clear: left;
 }
-#landing #posts #activities, #landing #posts #updates {
+#landing #posts #activities, #landing #posts #updates, #landing #posts #activities #rss-url, #landing #posts #activities #ical-url {
   width: 400px;
   float: left;
   display: inline-block;
@@ -374,6 +374,11 @@ ul.posts li a span.date {
   margin-right: 50px;
 }
 #landing p {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#rss-url, #ical-url {
   text-align: center;
   margin-bottom: 1em;
 }
